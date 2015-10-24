@@ -4,6 +4,7 @@ Router.configure({
 
 Router.map(function () {
   this.route('Test');
+  this.route('Map');
   this.route('Home', {
     path: '/',  //overrides the default '/home'
   });
