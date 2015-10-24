@@ -1,18 +1,31 @@
 <template name="LandingBanner">
   <div class="LandingBannerSpace">
+
+  	<!-- Start of Wave Container -->
+	<div class="HookSpace"><img class ="HookImage" src="/hook.png"></div>
+
   	<!-- Form for Go Fishing area -->
   	<div class="container">
   		<div class="row">
 	  		<div class="col-md-4 col-xs-10 col-centered">
-	  			<h1>FishHints</h1>
+
+	  			<!-- Title and Logo -->
+	  			<h1 class="LandingBannerTitle">FishHints</h1>
 	  			<img src="fish_4.png" class="MainLogo">
+
+	  			<!-- Input to Map form -->
 	  			<div class="form-group">
 				  <label for="usr">Distance:</label>
 				  <input type="text" class="form-control" id="DistanceInput">
 				  <button type="button" class="btn btn-info btn-go-fishing">Go Fishing</button>
 				</div>
-	  		</div>
+
+
+			</div>
   		</div>
   	</div>
+
+  	<!-- Start of Wave Container -->
+	<div class="LandingWaveContainer"><img src="/waves.png"></div>
   </div>
 </template>

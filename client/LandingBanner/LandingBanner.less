@@ -1,13 +1,49 @@
 /* CSS declarations go here */
 .LandingBannerSpace
 {
+	position: relative;
+	.HookSpace
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+    	z-index: 10;
+
+    	.HookImage
+    	{
+    		height: 250vh;
+    	}
+	}
+
 	background-image: url("/LandingImage.jpg") ;
 	background-size: cover;
 	min-height: 90vh;
 	text-align: center;
+	position: relative;
+
+	.LandingBannerTitle
+	{
+		margin-top:15vh;
+	}
 
 	.MainLogo
 	{
+		margin-top: 5vh;
 		max-width: 200px;
 	}
+
+	.LandingWaveContainer
+	{
+		width:100%;
+
+		img
+		{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+
 }
+
