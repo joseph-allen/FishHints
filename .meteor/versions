@@ -51,6 +51,8 @@ logging@1.0.8
 matteodem:easy-search@2.0.0
 meteor@1.1.9
 meteor-base@1.0.1
+meteorhacks:async@1.0.0
+meteorhacks:npm@1.5.0
 minifiers@1.1.7
 minimongo@1.0.10
 mobile-experience@1.0.1
@@ -59,6 +61,7 @@ mongo@1.1.2
 mongo-id@1.0.1
 nemo64:bootstrap@3.3.5_2
 nemo64:bootstrap-data@3.3.5
+npm-container@1.2.0
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4
